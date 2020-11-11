@@ -2,10 +2,12 @@
   <PropertyGroup>
     <RootNamespace>leetcode_fsharp</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="TwoSum.fs" />
     <Content Include="README.md" />
+    <Compile Include="ZigZagConversion.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FsUnit.xUnit" Version="4.0.2" />
