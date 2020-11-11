@@ -1,0 +1,6 @@
+bin
+obj
+.ionide
+.fake
+.idea
+*.user
